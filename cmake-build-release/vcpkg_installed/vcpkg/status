@@ -81,3 +81,71 @@ Multi-Arch: same
 Description: Make available OpenGL3/ES/ES2 (modern) binding
 Status: install ok installed
 
+Package: vcpkg-cmake-get-vars
+Version: 2024-09-22
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 600b81fd901d52aa5f3ab4b3a1a2342f7f9ea88b2e2ce8e661b0c3dccc96b131
+Status: install ok installed
+
+Package: openssl
+Version: 3.4.1
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9f8c8924ca4a3fd94f9a72d2e9850dfdb96e7851658236f884693763c7e2eaf3
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 03ba409e4fa37eafd2990b99e52cb8e553720589ac9d3c66c352fd36316bae04
+Description: A compression library
+Status: install ok installed
+
+Package: curl
+Version: 8.12.1
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 86d39533e6643f0db909cd1da3ab81ce4abbb3fb545f965f4a3b414cc393b4b6
+Description: A library for transferring data with URLs
+Default-Features: non-http, ssl
+Status: install ok installed
+
+Package: curl
+Feature: non-http
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enables protocols beyond HTTP/HTTPS/HTTP2
+Status: install ok installed
+
+Package: curl
+Feature: openssl
+Depends: openssl
+Architecture: x64-linux
+Multi-Arch: same
+Description: SSL support (OpenSSL)
+Status: install ok installed
+
+Package: curl
+Feature: ssl
+Architecture: x64-linux
+Multi-Arch: same
+Description: Default SSL backend
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 506c2d5b26afc1bcc64db34266291920cc42ef0ce96fb7fc47a733a0086b231c
+Description: JSON for Modern C++
+Status: install ok installed
+
