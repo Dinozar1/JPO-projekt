@@ -1,0 +1,48 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be rebuilt:
+    imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.91.9
+Restored 0 package(s) from /home/szymon/.cache/vcpkg/archives in 3.34 us. Use --debug to see more details.
+Removing 1/2 imgui:x64-linux
+Elapsed time to handle imgui:x64-linux: 1.52 ms
+Installing 2/2 imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.91.9...
+Building imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.91.9...
+-- Using cached ocornut-imgui-v1.91.9.tar.gz
+-- Cleaning sources at /home/szymon/CLionProjects/weather-app/vcpkg/buildtrees/imgui/src/v1.91.9-afb09617a6.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /home/szymon/CLionProjects/weather-app/vcpkg/downloads/ocornut-imgui-v1.91.9.tar.gz
+-- Using source at /home/szymon/CLionProjects/weather-app/vcpkg/buildtrees/imgui/src/v1.91.9-afb09617a6.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing: /home/szymon/CLionProjects/weather-app/vcpkg/packages/imgui_x64-linux/share/imgui/copyright
+-- Performing post-build validation
+Starting submission of imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.91.9 to 1 binary cache(s) in the background
+Elapsed time to handle imgui:x64-linux: 7.1 s
+imgui:x64-linux package ABI: d68a733fc53c0d799281aa8ca8499728606b77faf9bf6d09efbbff4a68fca30c
+Total install time: 7.1 s
+glad provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glad CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glad::glad)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+  # A multi-platform library for OpenGL, window and input
+  glfw3
+
+imgui provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(imgui CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE imgui::imgui)
+
+Waiting for 1 remaining binary cache submissions...
+zip: error: failed with exit code 127
+Completed submission of imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.91.9 to 0 binary cache(s) in 1.16 ms (1/1)

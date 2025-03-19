@@ -1,0 +1,10 @@
+# ninja log v6
+1	8	1742378063006737838	CMakeFiles/weather_app.dir/UseImGui.cpp.o.ddi	9a4b9eeb536d774
+1	52	1742378063006037900	CMakeFiles/weather_app.dir/main.cpp.o.ddi	ba64e3a55bc5e862
+55	337	1742378063060522899	CMakeFiles/weather_app.dir/main.cpp.o	f2c9844c3ca72e98
+52	55	1742378063060522899	CMakeFiles/weather_app.dir/CXX.dd	74bf54b3f7d181a4
+52	55	1742378063060522899	/home/szymon/CLionProjects/weather-app/cmake-build-debug/CMakeFiles/weather_app.dir/CXXModules.json	74bf54b3f7d181a4
+52	55	1742378063060522899	CMakeFiles/weather_app.dir/main.cpp.o.modmap	74bf54b3f7d181a4
+52	55	1742378063060522899	CMakeFiles/weather_app.dir/UseImGui.cpp.o.modmap	74bf54b3f7d181a4
+338	369	1742378063343036371	weather_app	400c0facc5c9c51b
+55	63	1742378063061008897	CMakeFiles/weather_app.dir/UseImGui.cpp.o	fb8fe61b3c1b3606

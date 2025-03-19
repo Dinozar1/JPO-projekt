@@ -1,0 +1,21 @@
+# Ignore build directories
+/build/
+**/build/
+
+# Ignore vcpkg directories
+/vcpkg/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Ignore IDE and OS-specific files
+*.user
+*.swp
+.idea/
+.vscode/
+.DS_Store
