@@ -1,9 +1,6 @@
 # ninja log v6
-1	11	1742401526875301286	CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o	1004a01803665feb
-0	69384	1742403101249791517	build.ninja	c1aff23018502bd
+2	10	1742404003512435100	CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o	1004a01803665feb
+1	613	1742735591286017076	build.ninja	c1aff23018502bd
 2	54	1742386479537679804	CMakeFiles/weather_app.dir/UseImGui.cpp.o	4c944a26adf129b4
-1	3282	1742403062424340443	CMakeFiles/weather_app.dir/main.cpp.o	6b7cbce0a45fcf78
-3055	3235	1742402430028512477	weather_app	ebd5679512f7cf9b
-0	598	1742403101249791517	build.ninja	c1aff23018502bd
-1	3039	1742403101255835801	CMakeFiles/weather_app.dir/main.cpp.o	6b7cbce0a45fcf78
-3039	3219	1742403104293796401	weather_app	ebd5679512f7cf9b
+1	3103	1742403805039910300	CMakeFiles/weather_app.dir/main.cpp.o	6b7cbce0a45fcf78
+1	179	1742404025840157242	weather_app	cbf95d8ab1e0a940

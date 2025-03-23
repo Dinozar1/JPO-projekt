@@ -9,8 +9,6 @@
     "glfw3",
     "glad",
     "curl",
-    "nlohmann-json",
-    "stb",
-    "leaflet-cpp"
+    "nlohmann-json"
   ]
 }

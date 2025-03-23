@@ -1,7 +1,7 @@
 Detecting compiler hash for triplet x64-linux...
 Compiler found: /usr/bin/c++
 All requested packages are currently installed.
-Total install time: 104 us
+Total install time: 164 us
 curl is compatible with built-in CMake targets:
 
     find_package(CURL REQUIRED)

@@ -65,14 +65,6 @@ build CMakeFiles/weather_app.dir/UseImGui.cpp.o: CXX_COMPILER__weather_app_unsca
   OBJECT_DIR = CMakeFiles/weather_app.dir
   OBJECT_FILE_DIR = CMakeFiles/weather_app.dir
 
-build CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o: CXX_COMPILER__weather_app_unscanned_Release /home/szymon/CLionProjects/weather-app/apiCalls/getAllStations.cpp || cmake_object_order_depends_target_weather_app
-  DEFINES = -DCURL_STATICLIB
-  DEP_FILE = CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
-  INCLUDES = -I/home/szymon/CLionProjects/weather-app/vcpkg_installed/x64-linux/include -isystem /home/szymon/CLionProjects/weather-app/cmake-build-release/vcpkg_installed/x64-linux/include
-  OBJECT_DIR = CMakeFiles/weather_app.dir
-  OBJECT_FILE_DIR = CMakeFiles/weather_app.dir/apiCalls
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target weather_app
@@ -81,7 +73,7 @@ build CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o: CXX_COMPILER__we
 #############################################
 # Link the executable weather_app
 
-build weather_app: CXX_EXECUTABLE_LINKER__weather_app_Release CMakeFiles/weather_app.dir/main.cpp.o CMakeFiles/weather_app.dir/UseImGui.cpp.o CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o | vcpkg_installed/x64-linux/lib/libglfw3.a vcpkg_installed/x64-linux/lib/libglad.a vcpkg_installed/x64-linux/lib/libimgui.a vcpkg_installed/x64-linux/lib/libglfw3.a /usr/lib/librt.a /usr/lib/libm.so vcpkg_installed/x64-linux/lib/libcurl.a vcpkg_installed/x64-linux/lib/libssl.a vcpkg_installed/x64-linux/lib/libcrypto.a vcpkg_installed/x64-linux/lib/libz.a
+build weather_app: CXX_EXECUTABLE_LINKER__weather_app_Release CMakeFiles/weather_app.dir/main.cpp.o CMakeFiles/weather_app.dir/UseImGui.cpp.o | vcpkg_installed/x64-linux/lib/libglfw3.a vcpkg_installed/x64-linux/lib/libglad.a vcpkg_installed/x64-linux/lib/libimgui.a vcpkg_installed/x64-linux/lib/libglfw3.a /usr/lib/librt.a /usr/lib/libm.so vcpkg_installed/x64-linux/lib/libcurl.a vcpkg_installed/x64-linux/lib/libssl.a vcpkg_installed/x64-linux/lib/libcrypto.a vcpkg_installed/x64-linux/lib/libz.a
   FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = vcpkg_installed/x64-linux/lib/libglfw3.a  vcpkg_installed/x64-linux/lib/libglad.a  vcpkg_installed/x64-linux/lib/libimgui.a  -ldl  vcpkg_installed/x64-linux/lib/libglfw3.a  /usr/lib/librt.a  -lm  vcpkg_installed/x64-linux/lib/libcurl.a  vcpkg_installed/x64-linux/lib/libssl.a  vcpkg_installed/x64-linux/lib/libcrypto.a  -ldl  vcpkg_installed/x64-linux/lib/libz.a
   OBJECT_DIR = CMakeFiles/weather_app.dir

@@ -6,10 +6,10 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.30"
+						"string" : "3.8"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "weather_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-weather_app-Debug-8030edb8a8f1f8319125.json",
+					"jsonFile" : "target-weather_app-Release-9df83059e153976fe8de.json",
 					"name" : "weather_app",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/szymon/CLionProjects/weather-app/cmake-build-debug",
+		"build" : "/home/szymon/CLionProjects/weather-app/cmake-build-release",
 		"source" : "/home/szymon/CLionProjects/weather-app"
 	},
 	"version" : 
