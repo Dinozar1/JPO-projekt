@@ -1,22 +1,44 @@
 cmake_minimum_required(VERSION 3.8)
 project(weather_app)
 
-add_executable(weather_app main.cpp
-        UseImGui.cpp
-        UseImGui.h
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Define source files
+set(SOURCES
+        src/main.cpp
+        src/UseImGui.cpp
+        src/AirQualityMonitor.cpp
+        src/Station.cpp
+        src/Utils.cpp
 )
 
-# Include the correct path to ImGui headers
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/vcpkg_installed/x64-linux/include)
+# Define header files
+set(HEADERS
+        include/UseImGui.h
+        include/Station.h
+        include/AirQualityMonitor.h
+        include/Utils.h
+)
+
+# Create the executable
+add_executable(weather_app ${SOURCES} ${HEADERS})
+
+# Include directories
+include_directories(
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg_installed/x64-linux/include
+)
 
 # Find required packages
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glad CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
-
-# Find curl and nlohmann_json packages
 find_package(CURL CONFIG REQUIRED)
 find_package(nlohmann_json CONFIG REQUIRED)
+find_package(implot CONFIG REQUIRED)  # Find implot package
+find_package(OpenGL REQUIRED)         # Find OpenGL package
 
 # Link libraries
 target_link_libraries(weather_app PRIVATE
@@ -25,5 +47,7 @@ target_link_libraries(weather_app PRIVATE
         imgui::imgui
         CURL::libcurl
         nlohmann_json::nlohmann_json
+        implot::implot                # Link implot
+        OpenGL::GL                    # Link OpenGL
         ${CMAKE_DL_LIBS}  # For dlopen, etc.
 )

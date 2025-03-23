@@ -427,6 +427,33 @@
 			"path" : "cmake-build-release/vcpkg_installed/x64-linux/share/nlohmann_json/nlohmann_jsonTargets.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/vcpkg_installed/x64-linux/share/implot/implot-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/vcpkg_installed/x64-linux/share/implot/implot-config-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/vcpkg_installed/x64-linux/share/implot/implot-config-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/szymon/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/szymon/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/szymon/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
 			"path" : "vcpkg.json"
 		}
 	],

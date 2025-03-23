@@ -9,6 +9,7 @@
     "glfw3",
     "glad",
     "curl",
-    "nlohmann-json"
+    "nlohmann-json",
+    "implot"
   ]
 }

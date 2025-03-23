@@ -158,3 +158,12 @@ Abi: 9ff91f32efd8546b019efcf22ee60541395c8b44c8afad63619b3648c26f61a2
 Description: public domain header-only libraries
 Status: purge ok not-installed
 
+Package: implot
+Version: 0.16
+Depends: imgui, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 0997fae018f9d2fecc747011aacb24e1d4f3a8a3b4d9e63b63403480c626fe18
+Description: Advanced 2D Plotting for Dear ImGui
+Status: install ok installed
+

@@ -1,6 +1,23 @@
 # ninja log v6
+1	150	1742739401378035077	CMakeFiles/weather_app.dir/src/Station.cpp.o	8236a292b9f48310
+2	2990	1742739472324007988	CMakeFiles/weather_app.dir/src/AirQualityMonitor.cpp.o	3344ad6870a09d69
+1	929	1742739472323717018	CMakeFiles/weather_app.dir/src/main.cpp.o	21fa86806d415f5
 2	10	1742404003512435100	CMakeFiles/weather_app.dir/apiCalls/getAllStations.cpp.o	1004a01803665feb
-1	613	1742735591286017076	build.ninja	c1aff23018502bd
+1	613	1742742504986357744	build.ninja	c1aff23018502bd
 2	54	1742386479537679804	CMakeFiles/weather_app.dir/UseImGui.cpp.o	4c944a26adf129b4
+1	183	1742739182625167455	CMakeFiles/AirQualityMonitor.dir/src/Station.cpp.o	d79884c667daf939
+1	333	1742739401378179796	CMakeFiles/weather_app.dir/src/Utils.cpp.o	cedb0c6dc11580e6
+0	55	1742739401377763731	CMakeFiles/weather_app.dir/src/UseImGui.cpp.o	12c0c9501777d111
+2990	3189	1742739475311679311	weather_app	579b6b350afb2b0b
+1	107	1742739182625297473	CMakeFiles/AirQualityMonitor.dir/src/UseImGui.cpp.o	92d39e7e80480908
 1	3103	1742403805039910300	CMakeFiles/weather_app.dir/main.cpp.o	6b7cbce0a45fcf78
-1	179	1742404025840157242	weather_app	cbf95d8ab1e0a940
+1	355	1742739182625029527	CMakeFiles/AirQualityMonitor.dir/src/Utils.cpp.o	13a1142a2563d19a
+1	1077	1742742505142746616	CMakeFiles/weather_app.dir/src/main.cpp.o	21fa86806d415f5
+1	2917	1742750953113700643	CMakeFiles/weather_app.dir/src/AirQualityMonitor.cpp.o	3344ad6870a09d69
+1	3335	1742751058412230455	CMakeFiles/weather_app.dir/src/AirQualityMonitor.cpp.o	3344ad6870a09d69
+3335	3538	1742751061746183964	weather_app	f13a5cc444dbfb4b
+1	3374	1742751196492358819	CMakeFiles/weather_app.dir/src/AirQualityMonitor.cpp.o	3344ad6870a09d69
+3374	3580	1742751199865343792	weather_app	f13a5cc444dbfb4b
+1	931	1742751310115760267	CMakeFiles/weather_app.dir/src/main.cpp.o	21fa86806d415f5
+2	2957	1742751310116760261	CMakeFiles/weather_app.dir/src/AirQualityMonitor.cpp.o	3344ad6870a09d69
+2957	3145	1742751313071742336	weather_app	f13a5cc444dbfb4b
